@@ -1,0 +1,169 @@
+body
+{
+    margin: 0;
+    font-family: Oswald;
+    font-size: 56px;
+    color:white;
+    line-height: 80px;
+}
+
+/* header */
+
+.header {
+padding-top: 35px;
+    width: 100%;
+
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+
+}
+/* logo */
+
+.header__logo {
+    position: absolute;
+    width: 185px;
+    height: 31px;
+    left: 119px;
+    top: 32px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+white-space: nowrap;
+
+}
+
+/*nav*/
+
+.nav {
+    position: relative;
+    width: 775px;
+    height: 24px;
+    left: 381px;
+    top: 35px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #FFFFFF;
+white-space: nowrap;
+margin: 0 15px;
+}
+
+/*nav__link*/
+
+.nav__link {
+    margin: 24px;
+    color:white;
+    text-decoration: none;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+::after,
+::before{
+    box-sizing: border-box;
+}
+
+/* container */
+
+.container{
+    position: relative;
+    max-width: 1280px;
+    max-height: 720px;
+    margin: 0px auto;
+}
+
+
+/* intro */
+
+.intro{
+
+    width: 100%;
+    height: 100vh;
+    background: url(../project1/images/intro.jpg.) center, no-repeat;
+
+background-size: 100%;
+}
+.intro_title {
+    position: absolute;
+width: 389px;
+height: 226px;
+left: 119px;
+top: 152px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 80px;
+
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.osn {
+    position: absolute;
+width: 295px;
+height: 54px;
+left: 119px;
+top: 418px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+
+
+color: #FFFFFF;
+}
+
+
+/*button*/
+
+.btn {
+position:absolute;    
+width: 199px;
+height: 46px;
+left: 119px;
+top: 512px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 250%;
+border: 0px solid white;
+
+color: #FFFFFF;
+text-decoration: none;
+text-align:center;
+background: linear-gradient(95.14deg, #27E5FF -44.51%, #DA22DE 99.37%);
+}
